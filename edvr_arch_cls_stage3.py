@@ -5,7 +5,7 @@ from torch.nn import functional as F
 from basicsr.models.archs.arch_util import (DCNv2Pack, ResidualBlockNoBN,
                                             make_layer)
 
-from hrnet18_stage4 import feature_extraction
+from hrnet18_stage3 import feature_extraction
 
 
 class PCDAlignment(nn.Module):
